@@ -3,29 +3,35 @@ title: Concept
 layout: default
 parent: Glossary
 ---
-In order to simplify processing of incoming information people put labels on everything. A group of particles we labeled as `apple` will cause this label to activate in our heads when light bounces of it into eyes. Concept is just another word for "label".
-Concepts in our system have unique identifiers (CID).
+## What is a Concept
+
+Assigning concepts or labels  plays a pivotal role in simplifying the comprehension of incoming data. When an individual perceives a real-world object, such as an apple, photons striking the retina initiate a cognitive process that assigns a categorical label, "apple", to that object. This process essentially hinges on the assignment of a concept, which can be thought of as a mental label or tag.
+
+Concepts within our system are systematically cataloged and identified through unique Concept Identifiers (CIDs).
+
 ## Compound Concepts
 
-Unlike simple (atomic) concepts like `Apple`, compound concepts are always abstract, they can become concrete when we fill all their fields.
-For example a concept a red apple:
+Diverging from atomic concepts, which are relatively straightforward labels like `Apple`, compound concepts exhibit a more abstract nature. A compound concept only materializes into a concrete concept when all its constituent fields are populated with specific data. To illustrate, let's examine the concept of a red apple:
+
 ```python
 EntityWithDescription {
-	entity=Apple,
-	description=RedColor
+    entity=Apple,
+    description=RedColor
 }
 ```
-This concept is abstract, like `animal`, but unlike `animal` the idea that this concept has can be extended by supplying fields, in this case `entity` and `description`.
-Without compound concepts we would have to have atomic concepts like `RedApple`, `BlackCar`, `YellowCar`, etc in the knowledge base, but with compound concepts it's enough to create `EntityWithDescription`, `Apple`, `Car` and the colors to be able to express all the combinations of entities and descriptions.
 
-## CID
-CID is a unique concept identified.
-It is recommended to give human readable names to the concepts, but because this ids don't have any semantic meaning it is possible to give arbitrary ids to concepts without breaking anything.
+This compound concept, much like the  `Animal` concept, resides in the realm of abstraction. However, unlike `Animal`, the meaning of this concept is shaped by providing field values, in this case, `entity` and `description`. Without the framework of compound concepts, our knowledge base would necessitate the inclusion of numerous atomic concepts like `RedApple`, `BlackCar`, `YellowCar`, and so forth. By leveraging compound concepts, we can efficiently express diverse entity-description combinations through the creation of `EntityWithDescription`, `Apple`, `Car`, and individual colors.
 
-CID of an atomic concept must contain only letters or digits.
+## Concept Identifiers
 
-CID of compound concepts is defined as 
+CID is a unique identifier to the concept. While it is advisable to assign human-readable names to concepts for practicality, it's essential to acknowledge that CIDs themselves lack inherent semantic meaning. This characteristic affords us the flexibility to allocate arbitrary IDs to concepts without disrupting system integrity.
+
+In the context of atomic concepts, CIDs are constrained to alphanumeric characters.
+
+For compound concepts, the CID is defined as follows:
+
 ```
-Name{field1=CID1,field2=CID2,...}
+Name{field1=CID1,field2=CID2, ...}
 ```
-Where fields are sorted alphabetically and `Name` follows the rules for atomic CIDs.
+
+The fields are sorted alphabetically, with the "Name" component adhering to the naming conventions applied to atomic CIDs.
