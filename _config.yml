@@ -4,8 +4,5 @@ theme: just-the-docs
 
 url: https://agi-now.github.io
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
-
 favicon_ico: "/assets/favicon.ico"
 color_scheme: dark
