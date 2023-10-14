@@ -25,8 +25,9 @@ The fields are sorted alphabetically, with the "Name" component adhering to the 
 Compound concepts must list all their fields. If field is not populated, use default concept for this field.
 If a field is used to add heretical relation to the concept, use `&=` instead of an equal sign.
 
-Examples:
+Examples of CIDs:
 - `Apple`
+- `Color`
 - `EntityWithDescription{description=EntityDescription,entity&=Entity}`
 - `EntityWithDescription{description=ColorRed,entity&=Apple}```
 - `EntityWithDescription{description=RedColor,entity&=EntityWithDescription{description=BigSize,entity&=Apple}}`
@@ -35,6 +36,7 @@ Examples:
 In our conceptual framework, both atomic and compound concepts exhibit hierarchical relationships. Atomic concepts often form the foundational elements of these hierarchies, while compound concepts, with their combination of fields, enable the expression of more intricate relationships. 
 For example concept `Lion` is a child of `Animal` and `Animal` is a child of `Concept`, which also makes `Lion` a child of `Concept` (the relation is transitive).
 Compound concepts can have regular parents and parents defined via fields.
+Hierarchical relations are stored in Conceptual Knowledge Base.
 
 ## Compound Concepts
 
