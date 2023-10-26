@@ -4,23 +4,36 @@ layout: home
 nav_order: "1"
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+## The Path to AGI: Large Language Models and the Idea of Controllable AI
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+### 1. The Dynamics of Large Language Models (LLMs)
 
-More specifically, the created site:
+The AI landscape has been notably transformed by the emergence of Large Language Models (LLMs). Their rise has undeniably brought us closer to the horizon of Artificial General Intelligence (AGI). Yet, as with any innovative frontier, there are challenges tethered to the brilliance of LLMs.
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+#### 1.1. The Probabilistic Control Dilemma:
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+One of the nuances of LLMs lies in their control mechanics. While minor calibrations can be made to influence their outcomes, achieving a comprehensive grasp over their intricate functionalities is challenging. For instance, integrating a component as fundamental as long-term memory requires more than just a superficial adjustment. Existing methodologies like the RAG do offer potential solutions, but they are inherently limited and don't genuinely emulate organic memory dynamics. Altering the model's architecture is an option, but it mandates a comprehensive retraining process.
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+#### 1.2. The Economic Implications:
 
-To get started with creating a site, simply:
+Starting the training process of an LLM from the ground up is a resource-intensive endeavor. This doesn't just impact the exploration of newer architectural innovations but also presents a barrier to entry for independent and smaller-scale researchers. Hence, while LLMs present a tantalizing direction toward AGI, they also raise questions about access, equity, and diversity in research.
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+Yet, it's pertinent to acknowledge that the current trajectory of AI research heavily leans on the scaling potential of LLMs, fostering optimism about bridging the existing gaps.
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+### 2. The Concept of Controllable AI
 
+The notion of Controllable AI extends beyond just creating a compliant machine. It's about understanding and delineating the balance between intelligence and controllability in artificial entities.
+
+#### 2.1. Navigating Ambiguity:
+
+One of the historic challenges algorithmic models grappled with was ambiguity. The idea is to craft an algorithm capable of processing ambiguity with the same depth and nuance as human cognition. By weaving in elements of context and real-world knowledge, the AI could potentially offer a richer, more comprehensive understanding of its environment.
+
+#### 2.2. From Raw Data to Concepts:
+
+The evolution of AI hinges on its ability to process raw inputs—text, sound, images—and distill them into actionable concepts. The idea isn't just about reactionary protocols but building a system that learns and refines its understanding based on feedback. Such a system, rooted in pattern recognition and feedback loops, could potentially offer a more holistic understanding of its interactions and surroundings.
+
+While this conceptual framework is ambitious and teeming with complexities, it underscores the potential pathways we could explore as we inch closer to AGI.
+
+---
+
+In sum, as we navigate the intricate maze toward AGI, it becomes crucial to introspect, innovate, and iterate. The strengths and challenges of LLMs, combined with the foundational ideas behind Controllable AI, paint a fascinating canvas for the future of AI research.
