@@ -6,7 +6,7 @@ nav_order: "1"
 
 ## The Path to AGI
 
-### 1. Uncontrollable AI
+### 1 Uncontrollable AI
 
 The AI landscape has been notably transformed by the emergence of Large Language Models (LLMs). Their rise has undeniably brought us closer to the horizon of Artificial General Intelligence (AGI). Yet, as with any innovative frontier, there are challenges that LLMs may not overcome.
 
@@ -20,7 +20,7 @@ Starting the training process of an LLM from the ground up is a resource-intensi
 
 Yet, it's pertinent to acknowledge that the current trajectory of AI research heavily leans on the scaling potential of LLMs, fostering optimism about bridging the existing gaps.
 
-### 2. Controllable AI
+### 2 Controllable AI
 
 The notion of Controllable AI extends beyond just creating a compliant machine. It's about understanding and delineating the balance between intelligence and controllability in artificial entities.
 
