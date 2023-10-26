@@ -3,8 +3,6 @@ title: Concept
 layout: default
 parent: Glossary
 ---
-# Work In Progress
-
 # Concept
 
 ## What is a Concept
