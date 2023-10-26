@@ -45,6 +45,13 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      - name: Add contact us
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+          find: "This site uses <a href=\"https://github.com/just-the-docs/just-the-docs\">Just the Docs</a>, a documentation theme for Jekyll."
+          replace: "Contact us: <a href=\"mailto:kostya.cholak@gmail.com\">kostya.cholak@gmail.com</a>"
+          include: "_site/**"
+          regex: false
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v1
