@@ -7,7 +7,7 @@ nav_order: "1"
 
 ## 1 Uncontrollable AI
 
-The AI landscape has been notably transformed by the emergence of Large Language Models (LLMs). Their rise has undeniably brought us closer to the horizon of Artificial General Intelligence (AGI). Yet, as with any innovative frontier, there are challenges that LLMs may not overcome.
+The AI landscape has been notably transformed by the emergence of Large Language Models (LLMs). Their rise has undeniably brought us closer to the Artificial General Intelligence (AGI). Yet some challenges that are intrinsic to LLMs make us skeptical if they are the best way to reach AGI.
 
 ### 1.1 Controlling Probablity
 
@@ -25,7 +25,7 @@ The notion of Controllable AI extends beyond just creating a compliant machine. 
 
 ### 2.1 Dealing With Ambiguity
 
-One of the historic challenges algorithmic models grappled with was ambiguity. The idea is to craft an algorithm capable of processing ambiguity with the same depth and nuance as human cognition. By weaving in elements of context and real-world knowledge, the AI could potentially offer a richer, more comprehensive understanding of its environment.
+One of the historic challenges algorithmic models grappled with was ambiguity. People can deal with ambiguity by relaying on common-sense knowledge, which is not available to computers easily. Our idea is to fix this by creating an algorithm capable of processing ambiguity with the same depth and nuance as human cognition by weaving in elements of context and real-world knowledge.
 
 ### 2.2 Conceptual Processing and Learning
 
@@ -34,7 +34,5 @@ Our framework is based on the new pattern-matching techniques that can handle am
 While this framework is ambitious and teeming with complexities, it underscores the potential pathways we could explore as we inch closer to AGI.
 
 ---
-
-In sum, as we navigate the intricate maze toward AGI, it becomes crucial to introspect, innovate, and iterate. The strengths and challenges of LLMs, combined with the foundational ideas behind Controllable AI, paint a fascinating canvas for the future of AI research.
 
 The interface between humans and computers has long been a limiting factor in fully harnessing computational power. Traditional methods, which rely heavily on programming languages, create a bottleneck, preventing most individuals from tapping into the vast potential that computers offer. With the advent of controllable AI, this paradigm is poised to shift. This new era promises a more intuitive interaction, bridging the gap between human intention and machine capability. By bypassing the intricacies of traditional programming, controllable AI paves the way for a future where we can readily access and leverage the dormant power of computers that we've been overlooking in our daily lives.
