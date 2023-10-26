@@ -6,29 +6,29 @@ nav_order: "1"
 
 ## The Path to AGI: Large Language Models and the Idea of Controllable AI
 
-### 1. The Dynamics of Large Language Models (LLMs)
+### 1. Why Not Large Language Models
 
 The AI landscape has been notably transformed by the emergence of Large Language Models (LLMs). Their rise has undeniably brought us closer to the horizon of Artificial General Intelligence (AGI). Yet, as with any innovative frontier, there are challenges tethered to the brilliance of LLMs.
 
-#### 1.1. The Probabilistic Control Dilemma:
+#### 1.1. Controlling Probablity:
 
 One of the nuances of LLMs lies in their control mechanics. While minor calibrations can be made to influence their outcomes, achieving a comprehensive grasp over their intricate functionalities is challenging. For instance, integrating a component as fundamental as long-term memory requires more than just a superficial adjustment. Existing methodologies like the RAG do offer potential solutions, but they are inherently limited and don't genuinely emulate organic memory dynamics. Altering the model's architecture is an option, but it mandates a comprehensive retraining process.
 
-#### 1.2. The Economic Implications:
+#### 1.2. Trainig Cost:
 
 Starting the training process of an LLM from the ground up is a resource-intensive endeavor. This doesn't just impact the exploration of newer architectural innovations but also presents a barrier to entry for independent and smaller-scale researchers. Hence, while LLMs present a tantalizing direction toward AGI, they also raise questions about access, equity, and diversity in research.
 
 Yet, it's pertinent to acknowledge that the current trajectory of AI research heavily leans on the scaling potential of LLMs, fostering optimism about bridging the existing gaps.
 
-### 2. The Concept of Controllable AI
+### 2. Controllable AI
 
 The notion of Controllable AI extends beyond just creating a compliant machine. It's about understanding and delineating the balance between intelligence and controllability in artificial entities.
 
-#### 2.1. Navigating Ambiguity:
+#### 2.1. Dealing With Ambiguity:
 
 One of the historic challenges algorithmic models grappled with was ambiguity. The idea is to craft an algorithm capable of processing ambiguity with the same depth and nuance as human cognition. By weaving in elements of context and real-world knowledge, the AI could potentially offer a richer, more comprehensive understanding of its environment.
 
-#### 2.2. From Raw Data to Concepts:
+#### 2.2. Conceptual Processing and Learning:
 
 The evolution of AI hinges on its ability to process raw inputs—text, sound, images—and distill them into actionable concepts. The idea isn't just about reactionary protocols but building a system that learns and refines its understanding based on feedback. Such a system, rooted in pattern recognition and feedback loops, could potentially offer a more holistic understanding of its interactions and surroundings.
 
