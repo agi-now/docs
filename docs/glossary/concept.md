@@ -3,6 +3,10 @@ title: Concept
 layout: default
 parent: Glossary
 ---
+# Work In Progress
+
+# Concept
+
 ## What is a Concept
 
 Assigning concepts or labels  plays a pivotal role in simplifying the comprehension of incoming data. When an individual perceives a real-world object, such as an apple, photons striking the retina initiate a cognitive process that assigns a categorical label, "apple", to that object. This process essentially hinges on the assignment of a concept, which can be thought of as a mental label or tag.
