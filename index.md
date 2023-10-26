@@ -6,13 +6,13 @@ nav_order: "1"
 
 ## The Path to AGI
 
-### 1. Why Not Large Language Models
+### 1. Uncontrollable AI
 
-The AI landscape has been notably transformed by the emergence of Large Language Models (LLMs). Their rise has undeniably brought us closer to the horizon of Artificial General Intelligence (AGI). Yet, as with any innovative frontier, there are challenges tethered to the brilliance of LLMs.
+The AI landscape has been notably transformed by the emergence of Large Language Models (LLMs). Their rise has undeniably brought us closer to the horizon of Artificial General Intelligence (AGI). Yet, as with any innovative frontier, there are challenges that LLMs may not overcome.
 
 #### 1.1. Controlling Probablity:
 
-One of the nuances of LLMs lies in their control mechanics. While minor calibrations can be made to influence their outcomes, achieving a comprehensive grasp over their intricate functionalities is challenging. For instance, integrating a component as fundamental as long-term memory requires more than just a superficial adjustment. Existing methodologies like the RAG do offer potential solutions, but they are inherently limited and don't genuinely emulate organic memory dynamics. Altering the model's architecture is an option, but it mandates a comprehensive retraining process.
+One of the nuances of LLMs lies in their control mechanics. While minor calibrations can be made to influence their outcomes, achieving a comprehensive grasp over their intricate functionalities is challenging. For instance, integrating a component as fundamental as long-term memory requires more than just a superficial adjustment. Existing methodologies like the RAG do offer potential solutions, but they are inherently limited and don't genuinely emulate organic memory dynamics. Altering the model's architecture is an option, but it mandates a comprehensive retraining process. And before we even delve into the complexities of alignment, it's evident that mastering the technical aspects alone presents substantial hurdles.
 
 #### 1.2. Trainig Cost:
 
