@@ -3,7 +3,6 @@ title: Home
 layout: home
 nav_order: "1"
 ---
-
 ## The Path to AGI
 
 ### 1 Uncontrollable AI
