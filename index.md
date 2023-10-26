@@ -4,7 +4,7 @@ layout: home
 nav_order: "1"
 ---
 
-## The Path to AGI: Large Language Models and the Idea of Controllable AI
+## The Path to AGI
 
 ### 1. Why Not Large Language Models
 
