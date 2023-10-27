@@ -1,7 +1,7 @@
 ---
 title: Concept
 layout: default
-nav_order: "40"
+nav_order: "30"
 ---
 # Concept
 

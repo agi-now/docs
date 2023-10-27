@@ -1,7 +1,7 @@
 ---
 title: Pattern Matching
 layout: default
-nav_order: "40"
+nav_order: "60"
 ---
 # Work In Progress
 
