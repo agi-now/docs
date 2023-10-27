@@ -1,7 +1,7 @@
 ---
 title: World Model
 layout: default
-parent: Glossary
+nav_order: "50"
 ---
 # Work In Progress
 

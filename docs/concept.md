@@ -1,7 +1,7 @@
 ---
 title: Concept
 layout: default
-parent: Glossary
+nav_order: "40"
 ---
 # Concept
 
