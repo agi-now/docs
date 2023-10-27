@@ -6,3 +6,5 @@ url: https://agi-now.github.io
 
 favicon_ico: "/assets/favicon.ico"
 color_scheme: dark
+
+permalink: /:categories/:title

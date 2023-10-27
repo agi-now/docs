@@ -1,14 +1,16 @@
 ---
+
+---
 title: World Model
 layout: default
 nav_order: "50"
 ---
+
 # World Model
 
-In order to process incoming events, generate new knowledge and reason about the world the agent needs to be able to represent the world internally. 
-In the current framework agent's world model contains entities that are represented with a data strucutre similar to a class instance from OOP. 
-It has a concept and a list of fields. Concept defines possible fields, some of them might be set. For example an idea of a human might have fields like "name", "age", "gender", etc.
-Generally entities are represented like this:
+To effectively process incoming events, generate novel knowledge, and reason about the environment, an agent requires a robust internal representation of the world. Within the present framework, the agent's world model encompasses entities, each resembling a class instance from Object-Oriented Programming (OOP). Each entity comprises a concept and an assortment of fields. The concept defines which fields it can have and their default value if it's predent. For instance, a conceptualization of a human might incorporate fields such as "name", "age", and "gender". Entities don't have to provide values for all fields.  
+
+Entities are represented in the following format:
 ```python
 CID {
     field1=Entity,
@@ -16,8 +18,8 @@ CID {
     ...
 }
 ```
-Where "CID" is a concept id and "Entity" is another entity.
-There are special entities that represet literal values like numbers, strings, etc:
+Here, "CID" stands for Concept ID, and "Entity" signifies another entity. Distinct entities represent literal values, like numbers or strings:
+
 ```python
 String {
     value="hello"
@@ -34,7 +36,7 @@ Boolean {
 }
 ```
 
-Representation of a human inside the world model might look something like this:
+A representation of a human within this world model could be depicted as:
 ```python
 Human {
     name=String {
@@ -46,7 +48,7 @@ Human {
 }
 ```
 
-If a concept of an entity is compound then it's written in one like, like this:
+For entities with compound concepts, the representation consolidates into a singular line, as shown:
 ```python
 EntityWithDescription{entity=Human,description=Young} {
     name=String {
@@ -55,18 +57,14 @@ EntityWithDescription{entity=Human,description=Young} {
 }
 ```
 
-It is usually possible to find the value of a field by having the values of other fields.
-For example it is possible to find the persons full name from first and last name. 
-Or we can calculate the birth date from age and current date.
-This is implemented via something that is called "field getters".
+Often, one can deduce the value of a particular field by analyzing other fields. For instance, one can ascertain a person's full name by combining their first and last names, or infer the birth date from their age combined with the current date. Such extrapolations are facilitated through mechanisms known as "field getters".
 
 ## Field Getters
-In the knowledge base the fields of a concept are connected to the tasks that can be called to calculate the value of a field, given that the required input fields are present or can be calculated.
+
+Within the knowledge base, a concept's fields are interlinked with tasks. These tasks can compute a field's value, provided the necessary input fields are either available or can be derived.
 
 ..IMAGE GOES HERE..
 
-In this image we have a concept of a "Human" and three fields - "first_name", "last_name" and "full_name". The field "full_name" has a getter that will be called if we need the value of this field and the fields "first_name" and "last_name" are set.
+The accompanying image illustrates a concept, "Human", with three fields: "first_name", "last_name", and "full_name". The "full_name" field has an associated getter that is activated when its value is sought, and both the "first_name" and "last_name" fields are populated.
 
-Each entity has a unique concept associated with it. 
-This is required because we want to have a unique idea for each concept to be able to think about them separately.
-Imagine two white pawns on a chess board. Even though they are both of the "Pawn" concept, they are distinct in our heads, so we need to assign each one a unique concept that is a child of "Pawn" (actually PawnInstance, but let's simply for this example). This unique concepts will allow us to create knowledge about each pawn sepearately. Without them we would be only able to represent knowledge about pawns in general.
+Each entity possesses a unique, affiliated concept. This is pivotal because it is imperative to distinguish between concepts, allowing for individual contemplation. Consider two identical white pawns on a chessboard. Despite both belonging to the "Pawn" concept, they are distinct entities. Thus, we attribute a unique concept to each, derived from "Pawn" (for simplicity, let's call it PawnInstance). These distinct concepts enable the formulation of specific knowledge about each pawn. Without this differentiation, knowledge would be limited to generic information about pawns.
