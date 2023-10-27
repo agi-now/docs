@@ -18,7 +18,7 @@ CID {
     ...
 }
 ```
-Here, "CID" stands for Concept ID, and "Entity" signifies another entity. Distinct entities represent literal values, like numbers or strings:
+Here, "CID" stands for [Concept ID](/docs/concept#concept-identifiers), and "Entity" signifies another entity. Distinct entities represent literal values, like numbers or strings:
 
 ```python
 String {
