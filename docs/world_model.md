@@ -3,7 +3,7 @@ title: World Model
 layout: default
 nav_order: "50"
 ---
-World Model
+# World Model
 
 In order to process incoming events, generate new knowledge and reason about the world the agent needs to be able to represent the world internally. 
 In the current framework agent's world model contains entities that are represented with a data strucutre similar to a class instance from OOP. 
