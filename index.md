@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Main
 layout: home
 nav_order: "10"
 ---
