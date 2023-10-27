@@ -9,24 +9,33 @@ In order to process incoming events, generate new knowledge and reason about the
 In the current framework agent's world model contains entities that are represented with a data strucutre similar to a class instance from OOP. 
 It has a concept and a list of fields. Concept defines possible fields, some of them might be set. For example an idea of a human might have fields like "name", "age", "gender", etc.
 Generally entities are represented like this:
+```python
 CID {
     field1=Entity,
     field2=Entity,
     ...
 }
+```
 Where "CID" is a concept id and "Entity" is another entity.
 There are special entities that represet literal values like numbers, strings, etc:
+```python
 String {
     value="hello"
 }
+```
+```python
 Number {
     value=2
 }
+```
+```python
 Boolean {
     value=True
 }
+```
 
 Representation of a human inside the world model might look something like this:
+```python
 Human {
     name=String {
         value="John"
@@ -35,13 +44,16 @@ Human {
         value=29
     }
 }
+```
 
 If a concept of an entity is compound then it's written in one like, like this:
+```python
 EntityWithDescription{entity=Human,description=Young} {
     name=String {
         value="Sarah"
     }
 }
+```
 
 It is usually possible to find the value of a field by having the values of other fields.
 For example it is possible to find the persons full name from first and last name. 
