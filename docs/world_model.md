@@ -1,6 +1,4 @@
 ---
-
----
 title: World Model
 layout: default
 nav_order: "50"
