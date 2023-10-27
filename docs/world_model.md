@@ -63,12 +63,10 @@ This is implemented via something that is called "field getters".
 ## Field Getters
 In the knowledge base the fields of a concept are connected to the tasks that can be called to calculate the value of a field, given that the required input fields are present or can be calculated.
 
-<IMAGE GOES HERE>
+..IMAGE GOES HERE..
 
 In this image we have a concept of a "Human" and three fields - "first_name", "last_name" and "full_name". The field "full_name" has a getter that will be called if we need the value of this field and the fields "first_name" and "last_name" are set.
 
 Each entity has a unique concept associated with it. 
 This is required because we want to have a unique idea for each concept to be able to think about them separately.
 Imagine two white pawns on a chess board. Even though they are both of the "Pawn" concept, they are distinct in our heads, so we need to assign each one a unique concept that is a child of "Pawn" (actually PawnInstance, but let's simply for this example). This unique concepts will allow us to create knowledge about each pawn sepearately. Without them we would be only able to represent knowledge about pawns in general.
-
-## Knowledge representation
