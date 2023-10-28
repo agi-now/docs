@@ -8,7 +8,7 @@ nav_order: "10"
 # Entity
 
 ## Entity
-To effectively process incoming events, generate novel knowledge, and reason about the environment, an agent requires a robust internal representation of the world. Within the present framework, the agent's world model encompasses entities, each resembling a class instance from Object-Oriented Programming (OOP). Each entity comprises a concept and an assortment of fields. The concept defines which fields it can have and their default value if it's predent. For instance, a conceptualization of a human might incorporate fields such as "name", "age", and "gender". Entities don't have to provide values for all fields.  
+Within the present framework, the agent's world model encompasses entities, each resembling a class instance from Object-Oriented Programming (OOP). Entities represent well-bounded representations of unbounded physical world. For example a real-world puddle does not have clear boundaries - water is constantly evaporating and condensing, it goes through the ground and mixest with it. But in people's head it's a single entity that they can reason about. The same approach was used in this framework - entities resemble a class instance from Object-Oriented Programming (OOP). Each entity comprises a concept and an assortment of fields. The concept defines which fields it can have and their default value if it's present. For instance, a concept of a human might define fields such as "name", "age", and "gender". Entities don't have to provide values for all fields.  
 
 ## Representation
 Entities are represented in the following format:
