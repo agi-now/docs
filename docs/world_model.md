@@ -65,6 +65,6 @@ Within the knowledge base, a concept's fields are interlinked with tasks. These 
 
 ..IMAGE GOES HERE..
 
-The accompanying image illustrates a concept, "Human", with three fields: "first_name", "last_name", and "full_name". The "full_name" field has an associated getter that is activated when its value is sought, and both the "first_name" and "last_name" fields are populated.
+The accompanying image illustrates a concept, "Human", with three fields: "first_name", "last_name", and "full_name". The "full_name" field has an associated getter that is activated when its value is sought, and both the "first_name" and "last_name" fields are populated.  
 
 Each entity possesses a unique, affiliated concept. This is pivotal because it is imperative to distinguish between concepts, allowing for individual contemplation. Consider two identical white pawns on a chessboard. Despite both belonging to the "Pawn" concept, they are distinct entities. Thus, we attribute a unique concept to each, derived from "Pawn" (for simplicity, let's call it PawnInstance). These distinct concepts enable the formulation of specific knowledge about each pawn. Without this differentiation, knowledge would be limited to generic information about pawns.
