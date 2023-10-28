@@ -1,6 +1,7 @@
 ---
 title: Knowledge Representation
 layout: default
+parent: World Model
 nav_order: "70"
 ---
 # Work In Progress

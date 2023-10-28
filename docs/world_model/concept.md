@@ -1,6 +1,7 @@
 ---
 title: Concept
 layout: default
+parent: World Model
 nav_order: "30"
 ---
 # Concept
