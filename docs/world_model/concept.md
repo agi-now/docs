@@ -26,7 +26,7 @@ Name{field1=CID1,field2=CID2, ...}
 
 The fields are sorted alphabetically, with the "Name" component adhering to the naming conventions applied to atomic CIDs.
 Compound concepts must list all their fields. If field is not populated, use default concept for this field.
-If a field is used to add heretical relation to the concept, use `&=` instead of an equal sign.
+If a field is used to add hierarchical relation to the concept, use `&=` instead of an equal sign.
 
 Examples of CIDs:
 - `Apple`
