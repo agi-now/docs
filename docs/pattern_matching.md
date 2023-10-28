@@ -8,7 +8,7 @@ nav_order: "60"
 # Pattern Matching
 
 ## Why It Is Needed
-People think about the world in terms of abstract concepts because it substatually simplifies interractions with the real world. What this means is that me map real world onto our world model by simplifying and aggregating incoming signals from the sensory organs. 
+People think about the world in terms of abstract concepts because it substantially simplifies interactions with the real world. What this means is that me map real world onto our world model by simplifying and aggregating incoming signals from the sensory organs. 
 This process of simplification is called pattern matching because the agent is looking for abstract concepts in the raw signals, trying to find known patterns in the data. If we didn't have pattern matching, then we would need to work with the raw data instead of its simplified representation, which is a lot more resource-intensive.
 
 ## Ambiguity
