@@ -1,7 +1,8 @@
 ---
-title: World Model
+title: Entity
 layout: default
-nav_order: "50"
+parent: World Model
+nav_order: "10"
 ---
 
 # World Model

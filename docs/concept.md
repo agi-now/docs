@@ -31,7 +31,7 @@ Examples of CIDs:
 - `Apple`
 - `Color`
 - `EntityWithDescription{description=EntityDescription,entity&=Entity}`
-- `EntityWithDescription{description=ColorRed,entity&=Apple}```
+- `EntityWithDescription{description=ColorRed,entity&=Apple}`
 - `EntityWithDescription{description=RedColor,entity&=EntityWithDescription{description=BigSize,entity&=Apple}}`
 
 ## Hierarchical Relations of Concepts
