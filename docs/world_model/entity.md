@@ -19,7 +19,7 @@ CID {
     ...
 }
 ```
-Here, "CID" stands for [Concept ID](/docs/concept#concept-identifiers), and "Entity" signifies another entity. 
+Here, "CID" stands for [Concept ID]({% link docs/world_model/concept.md %}#concept-identifiers), and "Entity" signifies another entity. 
 Some entities have literals as field values, like numbers or strings:
 
 ```python
