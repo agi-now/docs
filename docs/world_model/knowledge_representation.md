@@ -2,7 +2,7 @@
 title: Knowledge Representation
 layout: default
 parent: World Model
-nav_order: "70"
+nav_order: "30"
 ---
 # Work In Progress
 

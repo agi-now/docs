@@ -2,7 +2,7 @@
 title: Concept
 layout: default
 parent: World Model
-nav_order: "30"
+nav_order: "10"
 ---
 # Concept
 
