@@ -2,6 +2,7 @@
 title: AGCI
 layout: default
 nav_order: "10"
+parent: Logic
 published: true
 ---
 ## Work In Progress
