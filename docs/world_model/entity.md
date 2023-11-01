@@ -7,11 +7,12 @@ nav_order: "20"
 
 # Entity
 
-## Entity
+## Representation
+
 Within the present framework, the agent's world model encompasses entities, each resembling a class instance from Object-Oriented Programming (OOP). Each entity comprises a concept and an assortment of fields. The concept defines which fields it can have and their default value if it's present. For instance, a concept of a human might define fields such as "name", "age", and "gender". Entities don't have to provide values for all fields.  
 
-## Representation
 Entities are represented in the following format:
+
 ```python
 CID {
     field1=Entity,
@@ -19,6 +20,7 @@ CID {
     ...
 }
 ```
+
 Here, "CID" stands for [Concept ID]({% link docs/world_model/concept.md %}#concept-identifiers), and "Entity" signifies another entity. 
 Some entities have literals as field values, like numbers or strings:
 
@@ -27,19 +29,23 @@ String {
     value="hello"
 }
 ```
+
 ```python
 Number {
     value=2
 }
 ```
+
 ```python
 Boolean {
     value=True
 }
 ```
+
 Literals can only be used with the field named `value`. All other fields must have another entity as a value.
 
 A representation of a human within this world model could be depicted as:
+
 ```python
 Human {
     name=String {
@@ -52,6 +58,7 @@ Human {
 ```
 
 For entities with compound concepts, the representation consolidates into a singular line, as shown:
+
 ```python
 EntityWithDescription{entity=Human,description=Young} {
     name=String {
