@@ -3,6 +3,7 @@ title: Logic
 layout: default
 nav_order: "55"
 published: true
+has_children: true
 ---
 
 ## Work In Progress
