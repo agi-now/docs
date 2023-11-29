@@ -18,7 +18,7 @@ The question seems obvious to people, but computers don't know how the process o
 There are different kinds of ambiguity, but mostly they arise from the simplifications people make because they assume that everyone has the same commonsense knowledge.
 
 ## Commonsense knowledge
--
+.
 
 ## Technical Details
 -
