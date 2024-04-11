@@ -49,7 +49,7 @@ jobs:
         uses: jacobtomlinson/gha-find-replace@v3
         with:
           find: "This site uses <a href=\"https://github.com/just-the-docs/just-the-docs\">Just the Docs</a>, a documentation theme for Jekyll."
-          replace: "Contact us: <a href=\"mailto:kostya.cholak@gmail.com\">kostya.cholak@gmail.com</a>"
+          replace: "Contact us: <a href=\"mailto:kostya.cholak@gmail.com\">contact@agi-now.com</a>"
           include: "_site/**"
           regex: false
       - name: Upload artifact
